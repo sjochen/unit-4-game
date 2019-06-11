@@ -26,3 +26,9 @@ img:hover {
     background-color: crimson;
     max-width: 980px;
 }
+
+.head {
+    font: bold;
+    font-size: 25px;
+    padding: 10px;
+}
