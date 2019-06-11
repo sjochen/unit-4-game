@@ -44,16 +44,21 @@ function gameReset() {
         if(count === startNumber){
             wins++;
             $('#wins').text(wins);
+            alert('You Win!');
             gameReset();
             
         }else if(count > startNumber){
             loses++;
             $('#loses').text(loses);
+            alert('You Lose!')
             gameReset();
             
         }
     });
+
 };
+
+
 
 gameReset();
 
